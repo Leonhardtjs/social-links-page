@@ -1,0 +1,19 @@
+@use 'variables' as v;
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+  
+body {
+    font-family: v.$inter;
+    font-size: 1.6rem;
+    background-color: v.$offBlack;
+}
+
+.attribution { font-size: 1.4rem; text-align: center; color: v.$white; margin-top: 1rem; }
+.attribution a { color: v.$green; }
